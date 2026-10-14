@@ -49,3 +49,4 @@ footer{text-align:center;padding:60px 5vw;border-top:1px solid var(--s);font-siz
 .pano{grid-column:1/-1;grid-row:span 2}
 .g6{grid-template-columns:repeat(6,1fr)}.g6>*{grid-column:span 2}.g6>.half{grid-column:span 3;grid-row:span 2}
 @media(max-width:820px){.g6{grid-template-columns:1fr 1fr}.g6>*,.g6>.half{grid-column:span 1}}
+.about{max-width:720px}.about p:not(.eyebrow){margin-bottom:28px;color:#E8E4DCcc;font-size:19px}
